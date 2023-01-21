@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     var desctriptionLabel = UILabel()
     var stepper = UIStepper()
     var sendButton = UIButton()
-    
+    var addButton = UIButton()
     
     var itemDescription = "пицца Пепперони 32 см в количестве - 1шт." {
         didSet {
