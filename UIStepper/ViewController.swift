@@ -32,6 +32,7 @@ class ViewController: UIViewController {
         view.addSubview(desctriptionLabel)
         view.addSubview(stepper)
         view.addSubview(sendButton)
+        view.addSubview(addButton)
         
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         segmentedControl.translatesAutoresizingMaskIntoConstraints = false
@@ -66,7 +67,17 @@ class ViewController: UIViewController {
             sendButton.heightAnchor.constraint(equalToConstant: 30),
             sendButton.widthAnchor.constraint(equalToConstant: 100),
             sendButton.topAnchor.constraint(equalTo: desctriptionLabel.bottomAnchor, constant: 16),
-            sendButton.centerXAnchor.constraint(equalTo: view.centerXAnchor)])
+            sendButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+        
+//            addButton.heightAnchor.constraint(equalToConstant: 30),
+//            addButton.widthAnchor.constraint(equalToConstant: 100),
+//            addButton.topAnchor.constraint(equalTo: desctriptionLabel.bottomAnchor, constant: -16),
+//            addButton.centerXAnchor.constraint(equalTo: view.centerXAnchor)
+        
+        ])
+        
+        
+        
         
         titleLabel.text = "Пепперони"
         titleLabel.font = UIFont.systemFont(ofSize: 33)
